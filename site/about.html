@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>О нас — Жалюзи и шторы «День-Ночь»</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>ВЛАСТААЛ</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="calculator.html">Калькулятор</a>
+      <a href="about.html" class="active">Наши работы</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container about-page">
+  <h2 class="section-title">Наши работы</h2>
+
+  <!-- Фото-слайдер -->
+  <div class="slider">
+    <div class="slides" id="slides">
+      <img src="https://images.unsplash.com/photo-1586105251261-72a756497a9a?auto=format&fit=crop&w=800&q=80" alt="Жалюзи 1" />
+      <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80" alt="Жалюзи 2" />
+      <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80" alt="Интерьер" />
+      <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt="Монтаж" />
+      <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="Жалюзи на окнах" />
+    </div>
+    <div class="slider-controls">
+      <button id="prev" aria-label="Предыдущий">
+        &#10094;
+      </button>
+      <button id="next" aria-label="Следующий">
+        &#10095;
+      </button>
+    </div>
+    <div class="slider-dots" id="slider-dots"></div>
+  </div>
+
+  <p class="about-description">
+    Мы занимаемся установкой и продажей жалюзи и штор уже более 10 лет. <br>
+    Наши работы — это сочетание стиля, качества и функциональности. <br>
+    Ниже вы можете увидеть реальный монтаж и готовые интерьеры.
+  </p>
+
+  <!-- Видеоблок -->
+  <div class="video-section">
+    <h3>Посмотрите, как мы работаем</h3>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/EwGDN3ocgyg" title="Пример установки жалюзи" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Жалюзи и шторы «День-Ночь» | Все права защищены</p>
+  </div>
+</footer>
+
+<script src="js/slider.js"></script>
+</body>
+</html>
